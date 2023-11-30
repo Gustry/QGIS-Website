@@ -132,10 +132,8 @@ Yes you can... BUT depending on your Operating System, it is more or less diffic
 
 If you are under Windows and are using the OSGeo4w installer, it is included.
 
-If you are using macOS, you can find the ECW plugin and install instructions at
-https://www.kyngchaos.com/software/frameworks
-
-For other instructions, eg look here: https://www.faunalia.eu/en/blog/2019-05-21_ecw_support
+On Linux, QGIS is not provided with the ECW driver by default because GDAL/OGR needs to be compiled manually.
+Usually, Linux is used for the OS when installing QGIS Server.
 
 Development
 ===========
@@ -146,5 +144,3 @@ Can I compile QGIS myself?
 Yes, compiling QGIS from source is possible whatever OS you use (Windows, OS X,
 Linux). Please read `Building QGIS from source
 <https://github.com/qgis/QGIS/blob/master/INSTALL.md>`_
-
-
